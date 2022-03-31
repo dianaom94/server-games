@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+//Principio solid: responsability
 const connectDB = async () => {
     try {
         await mongoose.connect(process.env.DATABASE, {
